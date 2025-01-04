@@ -1,0 +1,98 @@
+{
+  "secret": "tajurbaapp",
+  "refreshTokenSecret": "qqApp",
+  "tokenLife": 31536000,
+  "adminTokenLife": 86400,
+  "refreshTokenLife": 86400,
+  "DB": {
+    "dbname": "e-check-trac",
+    "host": "localhost",
+    "user": "root",
+    "password": "password"
+  },
+  "MAIL": {
+    "SENDER_EMAIL": "sanket.stackmentalist@gmail.com",
+    "SENDER_NAME": "TSM Team",
+    "USER": "sanket.stackmentalist@gmail.com",
+    "PASSWORD": "zqehamkrcfxzmvbr",
+    "HOST": "smtp.gmail.com",
+    "PORT": "465"
+  },
+  "FrontendForgotPassword": {
+    "url": "https://hrms.stackmentalist.com/#/new-password-user/"
+  },
+
+  "CipherKey": "85720180b219a7bc0bd9177e2e884d5b505b87900e8bcba9cf0fae45e03efb0d",
+  "SecretKey": "de9f30bd659c78ce1dd05e5f90ffef0591588fd0a8317b682eabd72add8cce87",
+  "log": true,
+  "Database": {
+    "URL": "mongodb+srv://ritik:tsm%407200%21@cluster0.zz1xb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+    "Debug": true,
+    "dbName": "Mentify",
+    "SSL_CERT": "",
+    "Type": "Normal",
+    "dcDisableHooks": false
+  },
+  "SecureAccess": {
+    "whitelistDomains": [],
+    "enable": false
+  },
+  "App": {
+    "PORT": 1205,
+    "Miles": 2,
+    "PaginateLimit": 30,
+    "RequestExpireTime": 3,
+    "tokenExpiresTime": "2000d",
+    "host": "http://localhost:8043/",
+    "WebHost": "http://localhost/",
+    "secret": "test",
+    "SiteName": "",
+    "SiteSortName": ""
+  },
+
+  "AWS": {
+    "AccessKey": "AKIAVTQIEEOG6XHZIEMD",
+    "SecretKey": "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",
+    "BucketName": "serverqodequay/tajurba",
+    "region": "ap-south-1",
+    "S3Path": "https://arqosh.s3.ap-south-1.amazonaws.com/",
+    "SQS": {
+      "queueURL": "https://sqs.ap-south-1.amazonaws.com/249345467566/dev-email-queue"
+    }
+  },
+  "payment_gateway": {
+    "key_id": "rzp_test_45AIBaqC5XJVUv",
+    "key_secret": "9eetf1zPU68JnousOLnwmmRJ",
+    "payment_capture": 1
+  },
+  "Twillo": {
+    "AccountSID": "",
+    "AuthToken": "",
+    "From": ""
+  },
+  "CronTask": {
+    "nextDelay": 10,
+    "idleDelay": 1000
+  },
+  "Image_url": {
+    "invoice_img": "https://serverqodequay.s3.amazonaws.com/tajurba/profile/1708943799258_logo.png",
+    "logo_img": "https://serverqodequay.s3.amazonaws.com/tajurba/profile/1709111286361_logo.png",
+    "bottomline_img": "https://serverqodequay.s3.amazonaws.com/tajurba/profile/1709111389987_bottomline.svg",
+    "dot_img": "https://serverqodequay.s3.amazonaws.com/tajurba/profile/1709111754002_dot.svg",
+    "tajurba_name": "https://serverqodequay.s3.amazonaws.com/tajurba/profile/1709115985544_Tajurba%20name-05.png",
+    "right_logo": "https://serverqodequay.s3.ap-south-1.amazonaws.com/tajurba/profile/1709117394277_right.svg",
+    "left_logo": "https://serverqodequay.s3.amazonaws.com/tajurba/profile/1709117596484_left.svg",
+    "bg_logo": "https://serverqodequay.s3.amazonaws.com/tajurba/profile/1709117670948_bg.png"
+  },
+  "Badge": {
+    "brown_badge": "https://serverqodequay.s3.amazonaws.com/tajurba/profile/1713782769564_Brown_badge.png",
+    "silver_badge": "https://serverqodequay.s3.amazonaws.com/tajurba/profile/1713782523797_Silver_badge.png",
+    "golden_badge": "https://serverqodequay.s3.ap-south-1.amazonaws.com/tajurba/profile/1713782571556_Gold_badge.png"
+  },
+  "Agora": {
+    "appID": "",
+    "appCertificate": "",
+    "channelName": "",
+    "account ": ""
+  }
+}

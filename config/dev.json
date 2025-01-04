@@ -1,0 +1,62 @@
+{
+  "Database": {
+    "URL": "mongodb+srv://ritik:tsm%407200%21@cluster0.zz1xb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+    "Debug": true,
+    "dbName": "Mentify",
+    "SSL_CERT": "",
+    "Type": "Normal",
+    "dcDisableHooks": false
+  },
+  "SecureAccess": {
+    "whitelistDomains": [],
+    "enable": false
+  },
+  "App": {
+    "PORT": 1601,
+    "Miles": 2,
+    "PaginateLimit": 30,
+    "RequestExpireTime": 3,
+    "tokenExpiresTime": "2000d",
+    "host": "http://localhost:8043/",
+    "WebHost": "http://localhost/",
+    "secret": "test",
+    "SiteName": "",
+    "SiteSortName": ""
+  },
+  "SMTP": {
+    "From": "TSM Team",
+    "FromEmail": "sanket.stackmentalist@gmail.com",
+    "Host": "smtp.gmail.com",
+    "Service": "gmail",
+    "User": "sanket.stackmentalist@gmail.com",
+    "Password": "zqehamkrcfxzmvbr"
+  },
+  "AWS": {
+    "AccessKey": "AKIAVTQIEEOG5Y6E532Y",
+    "SecretKey": "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",
+    "BucketName": "arqosh",
+    "region": "ap-south-1",
+    "S3Path": "https://arqosh.s3.ap-south-1.amazonaws.com/",
+    "SQS": {
+      "queueURL": "https://sqs.ap-south-1.amazonaws.com/249345467566/dev-email-queue"
+    }
+  },
+  "Twillo": {
+    "AccountSID": "",
+    "AuthToken": "",
+    "From": ""
+  },
+  "CronTask": {
+    "nextDelay": 10,
+    "idleDelay": 1000
+  },
+  "Agora": {
+    "appID": "",
+    "appCertificate": "",
+    "channelName": "",
+    "account ": ""
+  },
+  "FrontendForgotPassword": {
+    "url": "https://server.qodequay.com/tajurba/dev/admin#/new-password-user/"
+  }
+}
