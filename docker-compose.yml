@@ -3,4 +3,4 @@ services:
    frontend:
       image: kartik61/hrms-frontend:latest
       ports:
-         - "5203:80"
+         - "5203:5203"
