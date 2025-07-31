@@ -75,7 +75,7 @@ pipeline {
     stage('Docker Run') {
       steps {
         sh 'docker stop ${APP} || true && docker rm ${APP} || true'
-        sh 'docker run -d --name ${APP} -p 3000:80 ${IMAGE}'
+        sh 'docker run -d --name ${APP} -p 5203:80 ${IMAGE}'
       }
     }
   }
