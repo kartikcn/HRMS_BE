@@ -2,8 +2,8 @@ pipeline {
   agent any
 
   environment {
-    APP = "hrms-frontend"
-    IMAGE = "kartik61/hrms-frontend:latest"
+    APP = "hrms-backend"
+    IMAGE = "kartik61/hrms-backend:latest"
   }
 
   stages {
